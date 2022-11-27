@@ -1,0 +1,36 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 350px minmax(500px, 1fr);
+}
+
+nav{
+   position: fixed;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    border-right: 2px solid grey;
+    
+}
+
+nav .navBar-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 40px;
+    gap: 20px;
+    
+
+}
+
+nav a{
+    display: block;
+    width: 100%;
+    border: 1px solid grey;
+
+}
